@@ -18,9 +18,13 @@ h2{
 .name{
     color: #F39139;
 }
-.hero{
+
+section{
     display: flex;
     margin-bottom: 150px;
+}
+.hero{
+   
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -28,6 +32,7 @@ h2{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    margin-top: 50px;
 }
 
 .half-width img{
@@ -45,8 +50,23 @@ h2{
     border-radius: 10px;
    line-height: 70px;
    letter-spacing: 7px;
+   
 }
 
 .developer{
     color: #FFB200;
+}
+
+.half{
+    align-self: center;
+}
+
+.halfs p{
+    width: 85%;
+}
+
+.hero-2{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
