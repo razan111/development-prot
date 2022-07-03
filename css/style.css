@@ -25,7 +25,7 @@ section{
 }
 .hero{
    
-    background-image: url(/images/top-banner.png);
+    background-image: url("/images/top-banner.png");
     background-repeat: no-repeat;
 }
 
@@ -50,6 +50,7 @@ section{
     border-radius: 10px;
    line-height: 70px;
    letter-spacing: 7px;
+   text-transform: uppercase;
    
 }
 
@@ -66,7 +67,7 @@ section{
 }
 
 .hero-2{
-    background-image: url(/images/dream-bg.png);
+    background-image: url("/images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right bottom;
 }
